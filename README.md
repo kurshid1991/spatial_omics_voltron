@@ -17,7 +17,11 @@ This repository contains R scripts demonstrating the use of VoltRon for spatial 
 
 - rhdf5: BiocManager::install(“rhdf5”)
 - RBioFormats: BiocManager::install(“RBioFormats”) 
-- Note: RBioFormats might be hard to install due to java dependency. Check https://github.com/BIMSBbioinfo/VoltRon/tree/dev?tab=readme-ov-file#dependencies for more information.
+
+  **Note: RBioFormats might be hard to install due to java dependency.**
+
+ Check https://github.com/BIMSBbioinfo/VoltRon/tree/dev?tab=readme-ov-file#dependencies for more information.
+ 
 - Seurat: install.packages("Seurat")
 - spacexr: devtools::install_github("dmcable/spacexr")
 - ComplexHeatmap: BiocManager::install("ComplexHeatmap")
